@@ -1,0 +1,11 @@
+<div class="projet-card">
+    <div class="contenu">
+        <h2>{{ projet.title }}</h2>
+        <p>{{ projet.date }}</p>
+        <p>{{ projet.description }}</p>
+        <a *ngIf="projet.link" [href]="projet.link"><img [src]="projet.linkIMG" width="25" height="25"></a>
+    </div>
+    <div classe="image">
+        <img *ngIf="projet.imageUrl" [src]="projet.imageUrl" [alt]="projet.title">
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<h1 >RESUME</h1>
+<h2>ME</h2>
+<app-projet [projet]="me"></app-projet>
+<h2>QUALIFICATIONS</h2>
+<div >
+    <app-projet *ngFor="let resume of myResume" [projet]="resume"></app-projet>
+</div>
+<h2>PROFESSIONAL EXPERIENCES</h2>
+<div >
+    <app-projet *ngFor="let experience of myExeperiences" [projet]="experience"></app-projet>
+</div>
+<h1 id="project">PROJECT</h1>
+<div >
+    <app-projet *ngFor="let projet of myProjet" [projet]="projet"></app-projet>
+</div>
+<h1 id="contact">CONTACT</h1>
+<div style="text-align: center;" >
+    <app-projet [projet]="contact"></app-projet>
+</div>

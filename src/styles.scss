@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+
+  body {
+    background-image: url('./assets/mountain.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image horizontalement et verticalement */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir l'élément */
+    margin: 0%;
+  }
